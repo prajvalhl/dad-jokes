@@ -23,10 +23,7 @@ export function GetDadJoke() {
   }
   return (
     <div>
-      <h2 className="jokeText">
-        {joke}In publishing and graphic design, Lorem ipsum is a placeholder
-        text commonly used to demonstrate the visual form of a document{" "}
-      </h2>
+      <h2 className="jokeText">{joke}</h2>
       <button onClick={getJokeFromServer}>Tell me Another!</button>
     </div>
   );
