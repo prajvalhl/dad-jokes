@@ -1,0 +1,49 @@
+body {
+  background: linear-gradient(
+      132deg,
+      rgb(59, 55, 106) 0%,
+      rgb(0, 143, 186) 50%,
+      rgb(255, 149, 213) 100%
+    )
+    fixed;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1 {
+  text-shadow: 0 0 5px;
+}
+
+.jokeText {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 1);
+  letter-spacing: 0.1rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  transition: 0.07s;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  border-color: white;
+  color: white;
+  box-shadow: 0 0 5px;
+}
+
+@media (max-width: 600px) {
+  .App {
+    width: 90%;
+  }
+}
