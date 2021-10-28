@@ -13,7 +13,8 @@ export function GetDadJoke() {
     try {
       const response = await axios.get(dadJokeUri, {
         headers: {
-          Accept: "application/json"
+          Accept: "application/json",
+          "User-Agent": "Dad Jokes (https://github.com/prajvalhl/dad-jokes)"
         }
       });
       setJoke(response.data.joke);
