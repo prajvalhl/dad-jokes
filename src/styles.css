@@ -66,4 +66,8 @@ button:hover {
   .App {
     width: 90%;
   }
+
+  .footer {
+    padding-bottom: 2rem;
+  }
 }
